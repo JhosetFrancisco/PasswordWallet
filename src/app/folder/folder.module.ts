@@ -8,6 +8,11 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
 
+import { PasswordsComponent } from '../components/passwords/passwords.component';
+import { TrashComponent } from '../components/trash/trash.component';
+import { ConfigComponent } from '../components/config/config.component';
+import { InfoComponent } from '../components/info/info.component';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +20,12 @@ import { FolderPage } from './folder.page';
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [
+    FolderPage,
+    PasswordsComponent,
+    TrashComponent,
+    ConfigComponent,
+    InfoComponent
+  ]
 })
 export class FolderPageModule {}
