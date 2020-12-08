@@ -1,5 +1,5 @@
 {
-  "appId": " com.jhosetpfrancisco.passwordwallet",
+  "appId": "com.jhosetpfrancisco.passwordwallet",
   "appName": "PasswordWallet",
   "bundledWebRuntime": false,
   "npmClient": "npm",
